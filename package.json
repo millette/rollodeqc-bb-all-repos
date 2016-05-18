@@ -14,6 +14,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "lint": "standard",
     "test": "standard && nyc ava",
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
@@ -24,10 +25,19 @@
   "keywords": [
     "cli-app",
     "cli",
-    ""
+    "rollodeqc",
+    "bitbucket",
+    "repositories"
   ],
   "dependencies": {
-    "meow": "^3.7.0"
+    "got": "^6.3.0",
+    "lodash.omit": "^4.3.0",
+    "lodash.omitby": "^4.4.0",
+    "lodash.pick": "^4.2.1",
+    "lodash.uniq": "^4.3.0",
+    "meow": "^3.7.0",
+    "pouchdb": "^5.3.2",
+    "rate-limit-promise": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^0.14.0",
