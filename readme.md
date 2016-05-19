@@ -4,6 +4,11 @@
 [![Dependency Status](https://gemnasium.com/badges/github.com/millette/rollodeqc-bb-all-repos.svg)](https://gemnasium.com/github.com/millette/rollodeqc-bb-all-repos)
 > Fetch all bitbucket repositories.
 
+## NOTE
+Well, the user location field is gone. So there. Kinda pointless now for my use case, sorry!
+
+*The project is hence **SUSPENDED***.
+
 ## Install
 ```
 $ npm install --save rollodeqc-bb-all-repos
